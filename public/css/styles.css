@@ -1,0 +1,40 @@
+.weather-section{
+    width: 100%;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#showWeatherForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.showWeatherLabel , #enterYourLocation , .weatherButton{
+    margin-top: 30px;
+}
+
+#enterYourLocation{
+    width: 30%;
+    padding: 15px 100px 15px 100px;
+    font-weight: bold;
+}
+
+.weatherButton{
+    padding: 10px 20px 10px 20px;
+}
+
+.city{
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.weather{
+    font-weight: bold;
+    font-size: 40px;
+}
+

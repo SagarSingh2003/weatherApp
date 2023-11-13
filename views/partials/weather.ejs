@@ -1,0 +1,14 @@
+<section class="weather-section">
+
+        <form action="/weather" id="showWeatherForm" name="searchTerm" method="post">
+            <label for="enterYourLocation" class="showWeatherLabel">Do you want to check today's weather?</label>
+            <input type="text" id="enterYourLocation" name="cityName" placeholder="Enter City Name">
+            <button class="weatherButton" type="submit" form="showWeatherForm">Show me Weather</button>
+        </form>
+
+        <span class="city"><%= locals.cityName %></span>
+        <span class="weather"><%= locals.weatherInformation %></span>
+        <span class="mainWeather"><%= locals.classValue %></span>
+    
+ </section>
+
